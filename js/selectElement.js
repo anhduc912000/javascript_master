@@ -59,3 +59,10 @@ evenLinks.forEach(function(even){
     even.style.color =' blue';
     even.backgroundColor = 'red';
 })
+
+const addCartBtns = document.querySelectorAll('.add-to-cart');
+
+addCartBtns.forEach(function(button){
+    button.textContent = 'Something new';
+});
+console.log(addCartBtns);
